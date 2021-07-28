@@ -47,7 +47,11 @@ function draw() {
 }
 
 function keyPressed() {
-  	
+  	if(keyCode===UP_ARROW){
+	Matter.BodyapplyForce(ball,ball.postion,{x:85,y:-85});
+	}
+						 
+						
 	
 	
 	
